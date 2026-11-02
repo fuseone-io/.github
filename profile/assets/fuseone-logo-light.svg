@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <defs>
+    <linearGradient id="merge-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0f5fb8"/>
+      <stop offset="100%" stop-color="#950fb8"/>
+    </linearGradient>
+    <linearGradient id="icon-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f5fb8"/>
+      <stop offset="100%" stop-color="#950fb8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Logo Mark: Two paths converging into one -->
+  <g transform="translate(10, 10)">
+    <!-- Top convergence path (blue) -->
+    <path d="M 0,8 L 32,8 L 56,42 L 56,48 L 48,48 L 28,18 L 0,18 Z" fill="#0f5fb8"/>
+    <!-- Bottom convergence path (purple) -->
+    <path d="M 0,82 L 32,82 L 56,48 L 56,42 L 48,42 L 28,72 L 0,72 Z" fill="#950fb8"/>
+    <!-- Forward arrow tip (gradient - unified direction) -->
+    <path d="M 52,42 L 52,48 L 80,48 L 92,45 L 80,42 Z" fill="url(#merge-gradient)"/>
+    <!-- Central merge point accent -->
+    <path d="M 48,42 L 56,42 L 56,48 L 48,48 L 42,45 Z" fill="url(#icon-gradient)" opacity="0.9"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(120, 0)">
+    <text y="78" font-family="'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="300" fill="#0a1628" letter-spacing="-2">
+      <tspan fill="#0f5fb8" font-weight="600">Fuse</tspan><tspan fill="#0a1628" font-weight="300">One</tspan>
+    </text>
+  </g>
+</svg>
